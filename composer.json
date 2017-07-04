@@ -1,0 +1,12 @@
+{
+    "name": "jensschulze/basicdrupal",
+    "description": "Some basic configuration to start with",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Jens Schulze",
+            "email": "info@jensschulze3000.de"
+        }
+    ],
+    "require": {}
+}

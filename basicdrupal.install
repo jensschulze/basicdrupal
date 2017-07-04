@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall hooks for the Jensschulze Basic install profile.
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function basicdrupal_install()
+{
+    // First, do everything that is done in the standard profile.
+    include_once DRUPAL_ROOT.'/core/profiles/standard/standard.install';
+    standard_install();
+
+    $config = \Drupal::service('config.factory')->getEditable('views.settings');
+    $config
+        ->set('ui.show.advanced_column', true)
+        ->set('ui.show.master_display', true)
+        ->save();
+}

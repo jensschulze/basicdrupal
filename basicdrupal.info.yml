@@ -1,0 +1,10 @@
+name: Jensschulze Basic Drupal
+type: profile
+description: Set some basic configuration values
+core: 8.x
+
+distribution:
+  name: Jensschulze Basic Drupal Distribution
+
+dependencies:
+  - update
