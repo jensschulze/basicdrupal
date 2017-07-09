@@ -8,6 +8,15 @@
             "email": "info@jensschulze3000.de"
         }
     ],
-    "require": {},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "drupal/better_exposed_filters": "^3.0@alpha",
+        "drupal/field_group": "^1.0@RC"
+    },
     "type": "drupal-profile"
 }
