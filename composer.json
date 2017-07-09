@@ -8,5 +8,6 @@
             "email": "info@jensschulze3000.de"
         }
     ],
-    "require": {}
+    "require": {},
+    "type": "drupal-profile"
 }
