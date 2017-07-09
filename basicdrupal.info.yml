@@ -7,4 +7,6 @@ distribution:
   name: Jensschulze Basic Drupal Distribution
 
 dependencies:
+  - better_exposed_filters
+  - field_group
   - update
