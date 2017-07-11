@@ -41,8 +41,13 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
+  - admin_toolbar_tools
   - better_exposed_filters
   - field_group
+  - pathauto
+  - simple_sitemap
+  - token
+  - twig_tweak
   - update
 themes:
   - bartik
