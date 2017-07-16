@@ -20,7 +20,6 @@ function basicdrupal_install()
 
     $config = \Drupal::service('config.factory')->getEditable('views.settings');
     $config
-        ->set('system.theme.default', 'bartik')
         ->set('ui.show.advanced_column', true)
         ->set('ui.show.master_display', true)
         ->save();
