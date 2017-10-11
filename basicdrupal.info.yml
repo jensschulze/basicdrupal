@@ -14,6 +14,7 @@ dependencies:
   - ckeditor
   - color
   - config
+  - config_diff_export
   - comment
   - contextual
   - contact
