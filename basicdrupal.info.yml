@@ -44,6 +44,7 @@ dependencies:
   - automated_cron
   - admin_toolbar_tools
   - better_exposed_filters
+  - big_pipe
   - ctools
   - field_group
   - pathauto
